@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Language Selector</string>
+    <string name="language_selector">Select language</string>
+    <string name="content">
+       Application that allows you to switch between languages and
+       view the translated contents according to the chosen language.
+   </string>
+</resources>

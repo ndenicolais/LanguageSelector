@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Language Selector</string>
+    <string name="language_selector">Wählen Sie Sprache</string>
+    <string name="content">
+        Anwendung, mit der Sie zwischen Sprachen und
+        Anzeigen der übersetzten Inhalte entsprechend der gewählten Sprache.</string>
+</resources>
