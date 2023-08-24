@@ -21,21 +21,35 @@ Click Run to start the project on the selected device.
 
 ## 🛠️ Built with
 Kotlin</br>
-Jetpack Compose
+Jetpack Compose<br>
+ViewModel<br>
+LiveData<br>
+Preferences Datastore<br>
+Dagger Hilt
 
 ## 📚 Package Structure
 
 ```
-com.denicks21.languageselector        # ROOT PACKAGE
+com.denicks21.languageselector  # ROOT PACKAGE
+│
+├── repository                  # REPOSITORY FOLDER
+|   │   ├── DataStoreRepository # DataStore repository.
 │
 ├── ui.theme                    # THEME FOLDER
 |   │   ├── Color               # Color palette used by the app.
 |   │   ├── Shape               # Components shapes of Compose used by the app.
 |   │   ├── Theme               # Theme used by the app.
 |   │   ├── Type                # Typography styles for the fonts used by the app.
+│
+├── viewmodels                  # VIEWMODELS FOLDER
+|   │   ├──LanguageViewModel    # Model that interact with repository class.
 |
 ├── MainActivity                # Main activity
 ```
+
+## 📌 Customization
+In the app, you can add or modify languages, you simply need to modify the strings files present in the "strings" folder. These resources are defined within XML files in the "res/values/" folder with the .xml extension.<br>
+To support other languages, you can create copies of the strings.xml file within new "res/values-xx/" folders where "xx" represents the language code.
 
 ## 📎 Screenshots
 <p float="left">
